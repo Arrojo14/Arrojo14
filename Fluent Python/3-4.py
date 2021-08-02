@@ -561,39 +561,4 @@ if 1==-1: # Más de lo mismo, puede que algún día vuelva a este archivo para e
 if 1==-1:
     
     import os
-    print(os.listdir(r'D:\Steam\steamapps\common\assettocorsa\content')) # Abrir la dirección que quieras
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    print(os.listdir(r'D:\Steam\steamapps\common\assettocorsa\content')) # Abrir la dirección que quieras    
