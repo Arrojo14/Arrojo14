@@ -306,19 +306,4 @@ if 3==2:
     dq.append("Derecha")
     dq.appendleft("Izquierda")
     print(dq)
-    # También tenemos el .extend para poner números extras en orden ascendente y el .rotate(num) para rotar hacia el lado deseado las casillas preferidas 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # También tenemos el .extend para poner números extras en orden ascendente y el .rotate(num) para rotar hacia el lado deseado las casillas preferidas
