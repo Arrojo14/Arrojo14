@@ -632,4 +632,3 @@ if 1==-1:
      def __call__(self):
          for command in self.commands: # We execute each one of the commands
              command()
-
