@@ -540,30 +540,16 @@ if 1==-1:
     print(t3 is t1) # True
     
 
+    
+ if 1==-1:
+    
+    t1 = (1, 2, 3)
+    t3 = (1, 2, 3)
 
-t1 = (1, 2, 3)
-t3 = (1, 2, 3)
-
-print(t3 is t1) # This didn't happen like this in the book, but I asume that now if you create two similar tuples in python, the second one becomes the first so there's only one
-# The afirmation above would make sense because tuples are unmutable, so why having two similars if you can't modify them
-
-
-s1 = 'ABC'
-s2 = 'ABC'
-print(s2 is s1) # Same happens with str
+    print(t3 is t1) # This didn't happen like this in the book, but I asume that now if you create two similar tuples in python, the second one becomes the first so there's only one
+    # The afirmation above would make sense because tuples are unmutable, so why having two similars if you can't modify them
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    s1 = 'ABC'
+    s2 = 'ABC'
+    print(s2 is s1) # Same happens with str
